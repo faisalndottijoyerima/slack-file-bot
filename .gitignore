@@ -1,0 +1,25 @@
+# Go build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+.env
+# Coverage and profiling
+coverage.out
+coverage.html
+pprof/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
